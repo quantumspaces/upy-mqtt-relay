@@ -1,0 +1,24 @@
+# copy this file to config.py and modify your environment settings
+
+# General
+
+VERSION = "1.0.0"
+
+# WIFI settings
+WIFI_SSID = "yourssid"
+WIFI_PASS = "yourwifipassword"
+
+# MQTT Server Settings
+MQTT_SERVER = "yourmqttserverip"
+MQTT_PORT = 1883
+MQTT_CLIENT = "relay1"
+
+# MQTT Topics
+TOPIC_COMMANDS = "relays/command"
+TOPIC_STATUS = "relays/status"
+
+# Relay pin numbers (these are wemos D1/D2 mini mappings)
+RELAY_PINS = (15, 13, 12, 14) # D8, D7, D6, D5
+
+# button settings
+BUTTON_PULSE_TIMEOUT = 5 # timeout in seconds
