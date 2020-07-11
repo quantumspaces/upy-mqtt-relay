@@ -68,6 +68,18 @@ Once assembled, the station is relatively compact for mounting into an enclosure
 
 ![front](img/front.jpg)
 
+## Testing
+
+Time to test your setup. You will be using this switch from applications (think sending messages from Python), from Node-RED, maybe from other places. Below are a few examples.
+
+### Web Test App
+
+One of the environments to use is your local web app. We have bundled an example solution in the folder **tester-app**. This is based on the work of Thomas Laurenson - [MQTT Web App Using Javscript and Paho MQTT](https://www.thomaslaurenson.com/blog/2018/07/10/mqtt-web-application-using-javascript-and-websockets/). The original repository on Github can be found [here](https://github.com/thomaslaurenson/MQTT-Subscription-Examples). The example solution is extended with a few notifications and message sending functionality, and we've added a few buttons to trigger our relays.
+
+![tester app](img/tester-app.jpg)
+
+**Tip**: Don't forget to enable sockets on the MQTT server!
+
 ## Links
 
 * [Pycom Libraries](https://github.com/pycom/pycom-libraries) - we use the MQTT library from [here](https://github.com/pycom/pycom-libraries/tree/master/examples/mqtt)
