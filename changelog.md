@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.0.1
+
+* More robust error handling
+* Adding Node-RED example
+
 ## Version 1.0.0
 
 * Added example (sockets) message sender app

@@ -14,7 +14,8 @@ def subscribe_commands(topic, msg):
     try:
         values = ujson.loads(msg)
         send_relay_command(values["bid"], values["on"])
-    except ValueError as e:
+        print("Received 'on' command for button ID {}".format(values["bid"]))
+    except (ValueError, KeyError) as e:
         print("Malformed message - ", msg, "(topic", topic, "). Ignoring")
 
 def connect_mqtt():
