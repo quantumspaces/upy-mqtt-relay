@@ -4,6 +4,8 @@ A station which communicates 4 relay on off status and configures switch behavio
 
 At this point in time, our relay functionality requires a pulse to be sent, which keeps the relay switched on for a given amount of time, then automatically switched off again. We call this feature 'pulse'. More functions can come later, when needed.
 
+![relays in action](img/upy-mqtt-relay-small.gif)
+
 This Micropython code can be used as a template for decoupling hardware features from a more complex environment, via MQTT.
 
 This code is licensed under GNU GPL 3.

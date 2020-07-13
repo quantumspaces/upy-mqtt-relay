@@ -4,6 +4,7 @@
 
 * More robust error handling
 * Adding Node-RED example
+* Adding short and long animated Gif of relay in action
 
 ## Version 1.0.0
 
